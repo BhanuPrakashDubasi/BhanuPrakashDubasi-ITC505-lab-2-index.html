@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview of Web Technologies</title>
+</head>
+<body>
+    <article>
+        <h1>Overview of Web Technologies</h1>
+        <p>Web technologies have evolved significantly over the past few decades, transforming how we create and interact with websites. This document provides an overview of some key technologies used in web development.</p>
+
+        <h2>HTML (Hypertext Markup Language)</h2>
+        <p>HTML is the standard markup language used to create and design web pages. It defines the structure and content of a webpage using a variety of elements and tags.</p>
+        <ul>
+            <li><strong>&lt;h1&gt; - &lt;h6&gt;</strong>: Defines headings</li>
+            <li><strong>&lt;p&gt;</strong>: Defines paragraphs</li>
+            <li><strong>&lt;a&gt;</strong>: Defines hyperlinks</li>
+            <li><strong>&lt;img&gt;</strong>: Defines images</li>
+        </ul>
+
+        <h2>CSS (Cascading Style Sheets)</h2>
+        <p>CSS is used to style and layout web pages. It controls the appearance of elements defined by HTML and allows for the separation of content and presentation.</p>
+        <ul>
+            <li><strong>Selectors</strong>: Target specific elements to apply styles</li>
+            <li><strong>Properties</strong>: Define the style attributes like color, font-size, and margin</li>
+            <li><strong>Responsive Design</strong>: Uses media queries to adapt the layout to different screen sizes</li>
+        </ul>
+
+        <h2>JavaScript</h2>
+        <p>JavaScript is a programming language that adds interactivity to websites. It allows for the creation of dynamic content and user interactions.</p>
+        <ul>
+            <li><strong>DOM Manipulation</strong>: Allows changes to the document structure</li>
+            <li><strong>Event Handling</strong>: Responds to user actions like clicks and keyboard input</li>
+            <li><strong>AJAX</strong>: Asynchronous requests to update parts of a webpage without reloading</li>
+        </ul>
+
+        <h2>Web Technologies in Practice</h2>
+        <p>These technologies are often used together to create modern, interactive web experiences. HTML structures the content, CSS styles it, and JavaScript adds functionality.</p>
+    </article>
+
+    <article>
+        <h2>Addendum</h2>
+        <p>In this HTML document, the following tags were used:</p>
+        <ul>
+            <li><strong>&lt;!DOCTYPE html&gt;</strong>: Declares the document type and version of HTML being used (HTML5 in this case).</li>
+            <li><strong>&lt;html&gt;</strong>: The root element of the HTML document.</li>
+            <li><strong>&lt;head&gt;</strong>: Contains metadata about the document, such as the character set and viewport settings.</li>
+            <li><strong>&lt;meta&gt;</strong>: Specifies character encoding and viewport settings for responsive design.</li>
+            <li><strong>&lt;title&gt;</strong>: Sets the title of the document, displayed in the browser’s title bar or tab.</li>
+            <li><strong>&lt;body&gt;</strong>: Contains the content of the document that is visible to users.</li>
+            <li><strong>&lt;article&gt;</strong>: Defines a self-contained piece of content that could be distributed or reused independently.</li>
+            <li><strong>&lt;h1&gt;, &lt;h2&gt;</strong>: Define headings and subheadings to structure the content hierarchically.</li>
+            <li><strong>&lt;p&gt;</strong>: Wraps paragraphs of text to separate them from other content.</li>
+            <li><strong>&lt;ul&gt;, &lt;li&gt;</strong>: Creates unordered lists to present key points or items.</li>
+            <li><strong>&lt;footer&gt;</strong>: Defines the footer section of the document, typically containing metadata or copyright information.</li>
+            <li><strong>&lt;span&gt;</strong>: Inline container used for styling or manipulating a part of the text (e.g., the last modified date).</li>
+            <li><strong>&lt;script&gt;</strong>: Embeds JavaScript code for adding interactivity or functionality to the webpage.</li>
+        </ul>
+        <p>These tags were chosen to organize and present the content clearly. Headings and paragraphs create a readable structure, lists organize key points, and the footer provides meta-information about the document.</p>
+    </article>
+
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+        var x = document.lastModified;
+        document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
